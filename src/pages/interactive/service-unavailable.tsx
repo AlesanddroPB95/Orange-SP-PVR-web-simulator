@@ -18,7 +18,7 @@ const ServiceUnavailablePage: React.FC<Props> = ({ location }) => {
         onControlPressed={() => navigate('/', { state: { selectedTab: 'INTERACTIVE' } })}
       >
         <br />
-        {serviceName} is not available.
+        {serviceName} no está disponible.
       </FullScreenError>
     </InnerLayout>
   )
