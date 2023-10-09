@@ -72,7 +72,7 @@ const ComingNext: React.FC<Props> = ({ location }) => {
       <div className={classes.root}>
         <article className={classes.message}>
           {/* WHY IS IT 4 FULL STOPS?! */}
-          <h1 className={classes.header}>Coming next....</h1>
+          <h1 className={classes.header}>Vendrá después....</h1>
           <h2 className={classes.title}>{serviceName}</h2>
           <p className={classes.description}>{serviceDescription}</p>
         </article>
