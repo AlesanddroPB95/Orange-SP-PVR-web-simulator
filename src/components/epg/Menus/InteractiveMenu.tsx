@@ -48,9 +48,9 @@ const InteractiveMenu: React.FC = () => {
       <div className={classes.centeredErrorMessage}>
         <ErrorMessage errorCode={null} wider horizontallyCentered>
           <br />
-          Searching for listings
+          Buscando listados
           <br />
-          Please wait
+          Espere por favor
         </ErrorMessage>
       </div>
     )
