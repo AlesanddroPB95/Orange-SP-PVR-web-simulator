@@ -19,55 +19,55 @@ function navigateToEpg(genre?: Genres) {
 
 export const tvGuideListItems: ListItem[] = [
   {
-    text: 'All Channels',
+    text: 'Todos los canales',
     onClick: () => {
       navigateToEpg()
     },
   },
   {
-    text: 'Entertainment',
+    text: 'Entretenimiento',
     onClick: () => {
       navigateToEpg(Genres.Entertainment)
     },
   },
   {
-    text: 'Lifestyle & Culture',
+    text: 'Estilo de vida y cultura',
     onClick: () => {
       navigateToEpg(Genres.LifestyleAndCulture)
     },
   },
   {
-    text: 'Movies',
+    text: 'Películas',
     onClick: () => {
       navigateToEpg(Genres.Movies)
     },
   },
   {
-    text: 'Sports',
+    text: 'Deportes',
     onClick: () => {
       navigateToEpg(Genres.Sports)
     },
   },
   {
-    text: 'News',
+    text: 'Noticias',
     onClick: () => {
       navigateToEpg(Genres.News)
     },
   },
   {
-    text: 'Documentaries',
+    text: 'Documentales',
     onClick: () => {
       navigateToEpg(Genres.Documentaries)
     },
   },
   {
-    text: 'Kids',
+    text: 'Infantil',
     onClick: () => {
       navigateToEpg(Genres.Kids)
     },
   },
   {
-    text: 'Music',
+    text: 'Música',
     onClick: () => {
       navigateToEpg(Genres.Music)
     },
@@ -79,37 +79,37 @@ export const tvGuideListItems: ListItem[] = [
     },
   },
   {
-    text: 'Shopping',
+    text: 'Compras',
     onClick: () => {
       navigateToEpg(Genres.Shopping)
     },
   },
   {
-    text: 'Religion',
+    text: 'Religión',
     onClick: () => {
       navigateToEpg(Genres.Religion)
     },
   },
   {
-    text: 'International',
+    text: 'Internacional',
     onClick: () => {
       navigateToEpg(Genres.International)
     },
   },
   {
-    text: 'Gaming & Dating',
+    text: 'Juegos y citas',
     onClick: () => {
       navigateToEpg(Genres.GamingAndDating)
     },
   },
   {
-    text: 'Specialist',
+    text: 'Especialista',
     onClick: () => {
       navigateToEpg(Genres.Specialist)
     },
   },
   {
-    text: 'Adult',
+    text: 'No recomendado para menores de 18 años.',
     onClick: () => {
       navigateToEpg(Genres.Adult)
     },
@@ -118,27 +118,27 @@ export const tvGuideListItems: ListItem[] = [
 
 export const boxOfficeListItems: ListItem[] = [
   {
-    text: 'Movies by start time',
+    text: 'Películas por hora de inicio',
     onClick: () => {},
   },
   {
-    text: 'Movies A–Z',
+    text: 'Películas A-Z',
     onClick: () => {},
   },
   {
-    text: 'New movies',
+    text: 'Nuevas películas',
     onClick: () => {},
   },
   {
-    text: 'Sports & Events',
+    text: 'Eventos deportivos',
     onClick: () => {},
   },
   {
-    text: 'Previews',
+    text: 'Vistas previas',
     onClick: () => {},
   },
   {
-    text: 'Adult Pay–Per–Night',
+    text: 'Pago de adulto por noche',
     onClick: () => {},
   },
   {
@@ -149,58 +149,58 @@ export const boxOfficeListItems: ListItem[] = [
 
 export const servicesListItems: ListItem[] = [
   {
-    text: 'Using Sky+',
+    text: 'Usando DVR',
     onClick: () => {
       navigate('/services/using-sky-plus')
     },
   },
   {
-    text: 'Telephone numbers',
+    text: 'Números telefónicos',
     onClick: () => {
       navigate('/services/telephone-numbers')
     },
   },
   {
-    text: 'Parental control',
+    text: 'Control parental',
     onClick: () => {},
   },
   {
-    text: 'System setup',
+    text: 'Configuración del sistema',
     onClick: () => {},
   },
   {
-    text: 'Sky+ Setup',
+    text: 'Configuración del DVR',
     onClick: () => {
       navigate('/services/sky-plus-setup')
     },
   },
   {
-    text: 'Anytime Setup',
+    text: 'Configuración a la carta',
     onClick: () => {},
   },
   {
-    text: 'Auto Standby',
+    text: 'Espera automática',
     onClick: () => {},
   },
   {
-    text: 'Manual Recording',
+    text: 'Grabación manual',
     onClick: () => {},
   },
   {
-    text: 'Favourite Channels',
+    text: 'Canales favoritos',
     onClick: () => {},
   },
   {
-    text: 'Other Channels',
+    text: 'Otros canales',
     onClick: () => {},
   },
 ]
 
 export const interactiveListItems: ListItem[] = [
   {
-    text: 'Sky Active',
+    text: 'mi Orange',
     onClick: () => {
-      navigate('/interactive/service-unavailable', { state: { serviceName: 'Sky Active' } })
+      navigate('/interactive/service-unavailable', { state: { serviceName: 'mi Orange' } })
     },
   },
   {
@@ -210,33 +210,33 @@ export const interactiveListItems: ListItem[] = [
     },
   },
   {
-    text: 'PlayJam Games',
+    text: 'Cinebank 24H',
     onClick: () => {
-      navigate('/interactive/service-unavailable', { state: { serviceName: 'PlayJam Games' } })
+      navigate('/interactive/service-unavailable', { state: { serviceName: 'Cinebank 24H' } })
     },
   },
   {
-    text: 'Teletext Holidays',
+    text: 'Vacaciones de teletexto',
     onClick: () => {
-      navigate('/interactive/service-unavailable', { state: { serviceName: 'Teletext Holidays' } })
+      navigate('/interactive/service-unavailable', { state: { serviceName: 'Vacaciones de teletexto' } })
     },
   },
   {
-    text: 'Sky Customer Service',
+    text: 'Servicio de atención al cliente Orange',
     onClick: () => {
-      navigate('/interactive/service-unavailable', { state: { serviceName: 'Sky Customer Service' } })
+      navigate('/interactive/service-unavailable', { state: { serviceName: 'Servicio de atención al cliente Orange' } })
     },
   },
   {
-    text: 'Sky Games',
+    text: 'Juegos Orange',
     onClick: () => {
-      navigate('/interactive/service-unavailable', { state: { serviceName: 'Sky Games' } })
+      navigate('/interactive/service-unavailable', { state: { serviceName: 'Juegos Orange' } })
     },
   },
   {
     text: 'Ladbrokes Betting & Games',
     onClick: () => {
-      navigate('/interactive/service-unavailable', { state: { serviceName: 'Ladbrokes Betting & Games' } })
+      navigate('/interactive/service-unavailable', { state: { serviceName: 'Apuestas y juegos de Ladbrokes' } })
     },
   },
   {
