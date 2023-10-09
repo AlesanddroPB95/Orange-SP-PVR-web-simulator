@@ -65,11 +65,11 @@
   },
   {
     "name": "CBBC",
-    "streamUrl": "http://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbbc_hd/mobile_wifi_main_sd_abr_v2_akamai_hls_live_http.m3u8"
+    "streamUrl": "http://149.62.177.157:8000/play/a010"
   },
   {
     "name": "CBeebies",
-    "streamUrl": "http://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbeebies_hd/mobile_wifi_main_sd_abr_v2_akamai_hls_live_http.m3u8"
+    "streamUrl": "https://ztnr.rtve.es/ztnr/5466990.m3u8"
   },
   {
     "name": "BBC News",
