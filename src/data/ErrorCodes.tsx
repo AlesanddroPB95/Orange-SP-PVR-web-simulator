@@ -21,23 +21,23 @@ enum ErrorCodes {
 }
 
 export const ErrorText = {
-  [ErrorCodes.NO_CARD_INSERTED]: <>Insert your Sky viewing card</>,
+  [ErrorCodes.NO_CARD_INSERTED]: <>Inserta tu tarjeta inteligente Orange</>,
   [ErrorCodes.NO_SATELLITE_SIGNAL]: (
     <>
-      No Satellite Signal is being received.
+      No se recibe señal de satélite.
       <br />
-      Please unplug your box from the mains, then plug it back in and wait 5 minutes before trying again.
+      Desenchufe su caja de la red eléctrica, luego vuelva a enchufarla y espere 5 minutos antes de volver a intentarlo..
       <br />
-      If the fault persists, contact customer services.
+      Si el fallo persiste contacte con atención al cliente.
     </>
   ),
   [ErrorCodes.NO_SATELLITE_SIGNAL_2]: (
     <>
-      No Satellite Signal is being received.
+      No se recibe señal de satélite.
       <br />
-      Please unplug your box from the mains, then plug it back in and wait 5 minutes before trying again.
+      Desenchufe su caja de la red eléctrica, luego vuelva a enchufarla y espere 5 minutos antes de volver a intentarlo..
       <br />
-      If the fault persists, contact customer services.
+      Si el fallo persiste contacte con atención al cliente.
     </>
   ),
 } as const
