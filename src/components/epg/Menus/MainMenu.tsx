@@ -11,7 +11,7 @@ import InteractiveMenu from './InteractiveMenu'
 import * as MenuColorButtons from './menuColourButtons'
 import * as MenuItems from './menuItems'
 
-const TABS: MainMenuTab[] = ['GUIDE', 'BOX OFFICE', 'SERVICES', 'INTERACTIVE']
+const TABS: MainMenuTab[] = ['GUÍA', 'TAQUILLAS', 'SERVICIOS', 'INTERACTIVO']
 
 const useStyles = makeStyles({
   root: {
@@ -32,11 +32,11 @@ const useStyles = makeStyles({
 function getMenuItems(selectedTab: MainMenuTab) {
   switch (selectedTab) {
     default:
-    case 'GUIDE':
+    case 'GUÍA':
       return MenuItems.tvGuideListItems
-    case 'BOX OFFICE':
+    case 'TAQUILLAS':
       return MenuItems.boxOfficeListItems
-    case 'SERVICES':
+    case 'SERVICIOS':
       return MenuItems.servicesListItems
   }
 }
@@ -116,8 +116,8 @@ const MainMenu: React.FC = () => {
         <HeaderTabs />
       </Header>
       <div className={classes.content}>
-        {mainMenuStateValue.selectedTab !== 'INTERACTIVE' && <Menu listItems={menuItems} key={mainMenuStateValue.selectedTab} />}
-        {mainMenuStateValue.selectedTab === 'INTERACTIVE' && <InteractiveMenu />}
+        {mainMenuStateValue.selectedTab !== 'INTERACTIVO' && <Menu listItems={menuItems} key={mainMenuStateValue.selectedTab} />}
+        {mainMenuStateValue.selectedTab === 'INTERACTIVO' && <InteractiveMenu />}
       </div>
       {colorButtonText && <ColorButtonsFooter buttonPressHandler={buttonPressHandler} buttonsText={colorButtonText} />}
     </div>
